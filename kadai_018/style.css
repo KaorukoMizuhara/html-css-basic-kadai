@@ -15,8 +15,11 @@
     height: 800px;
     margin-top: 20px;
     margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#ffd9df;
     position: relative;
+
     
 }
     
@@ -49,6 +52,8 @@
     height: 300px;
     text-align: center;
     background-color: #87ceeb;
+    margin-left: auto;
+    margin-right: auto;
 }
 #bottom-child01{
     width: 400px;
