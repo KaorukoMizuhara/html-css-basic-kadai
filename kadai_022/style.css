@@ -12,7 +12,7 @@ p, a{
     font-size: 20px;
 }
 header{
-    margin: 0px,0px,20px,0px;
+    margin: 0px 0px 20px 0px;
     background-color: rgb(244, 79, 79) ;
     text-align: center;
 }
@@ -26,7 +26,7 @@ main{
     display: flex;
     justify-content:space-around ;
 }
-#contents{
+.contents{
     border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px 10px 15px;
@@ -45,7 +45,7 @@ div p:nth-of-type(2)::first-letter{
     font-weight: bold;
     color:rgb(97, 206, 249) ;
 }
-image{
+img{
     margin: 10px 0px 10px 0px;
     width: 70%;
 }
