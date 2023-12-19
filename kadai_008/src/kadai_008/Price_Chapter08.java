@@ -4,30 +4,33 @@ public class Price_Chapter08 {
 
 	public static void main(String[] args) {
 		//変数を宣言する
-		int userAge=0;
+		int userAge=30;
 		int serviceCost=0;
 	
-	   userAge=35;
-	   //if文を書く
-		if (userAge<20) {
-			serviceCost=1000;
-		}else if (userAge<30) {
-			serviceCost=2000;
-		}else if (userAge<40) {
-			serviceCost=3000;
-			System.out.println("30代の料金は3000円");
-		}else if (userAge<50) {
-			serviceCost=3000;	
-		}else if (userAge<60) {
-			serviceCost=4000;
-		}else if (userAge<70) {
-			serviceCost=4000;
-		}else if(userAge<80) {
-			serviceCost=4000;
-		}else if (userAge<90) {
-			serviceCost=5000;
-		}else {
-			serviceCost=500;
-		}
-	}
+	//switch文を書く
+	 switch(userAge) {
+	 case 10:
+		   serviceCost=1000;
+		   break;
+	 case 20:
+		   serviceCost=2000;
+	 case 30:
+	 case 40:
+		   serviceCost=3000;
+		   break;
+	 case 50:
+	 case 60:
+     case 70:
+	      serviceCost=4000;
+	      break;
+	 case 80:
+		 serviceCost=5000;
+		 break;
+	 default:
+		   serviceCost=500;
+		   break;
+	 
+	   }
+	 System.out.println(userAge+"代の料金は"+serviceCost+"円");
+	}	
 }
